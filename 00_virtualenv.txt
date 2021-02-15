@@ -1,0 +1,17 @@
+# The venv module provides support for creating lightweight “virtual environments” with their own site directories, 
+# optionally isolated from system site directories. 
+Link: https://docs.python.org/3/library/venv.html
+
+Installation:
+$ pip install virtualenv # Python2
+$ pip3 install virtualenv # Python3+
+
+Create Virtual environment
+$ python -m venv "Path\to\new\virtual\environment" # Python2
+$ python3 -m venv "Path\to\new\virtual\environment" # Python3
+
+Activate Virtual environment
+$ source <"Path\to\new\virtual\environment">\bin\activate
+
+Deactivate virtual environment
+$ deactivate

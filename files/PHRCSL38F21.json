@@ -1,0 +1,660 @@
+{
+    "Facts": {
+        "vendor": "Cisco",
+        "os_version": "IOS-XE Software, Catalyst 4500 L3 Switch  Software (cat4500es8-UNIVERSALK9-M), Version 03.11.01.E RELEASE SOFTWARE (fc4)",
+        "serial_number": "FOX1611GTQ2",
+        "model": "WS-C4503-E",
+        "hostname": "PHRCSL38F21",
+        "fqdn": "PHRCSL38F21.phrc.chevrontexaco.net",
+        "management": "146.40.229.5",
+        "groups": [
+            "access"
+        ]
+    },
+    "VLAN": {
+        "ID": [
+            {
+                "id": "59",
+                "name": "Voice_Vlan"
+            },
+            {
+                "id": "235",
+                "name": "CCTV_Vlan"
+            },
+            {
+                "id": "298",
+                "name": "Data_Vlan"
+            },
+            {
+                "id": "500-503"
+            }
+        ]
+    },
+    "Interfaces": {
+        "Access": [
+            {
+                "interface": "GigabitEthernet2/1",
+                "access_vlan": "235",
+                "description": "---38F Storage CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/2",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/3",
+                "access_vlan": "235",
+                "description": "---38F CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/4",
+                "access_vlan": "235",
+                "description": "---38F CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/5",
+                "access_vlan": "235",
+                "description": "---38F CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/6",
+                "access_vlan": "235",
+                "description": "---38F CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/7",
+                "access_vlan": "235",
+                "description": "---38F CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/8",
+                "access_vlan": "235",
+                "description": "---38F CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/9",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/10",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/11",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/12",
+                "access_vlan": "235",
+                "description": "---38F CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/13",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/14",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/15",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/16",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/17",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/18",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/19",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/20",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/21",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/22",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/23",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/24",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/25",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/26",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/27",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/28",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/29",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/30",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/31",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/32",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/33",
+                "mode": "access",
+                "native_vlan": "500",
+                "trunk_allowed": "500-503"
+            },
+            {
+                "interface": "GigabitEthernet2/34",
+                "access_vlan": "235",
+                "description": "---38F CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/35",
+                "access_vlan": "235",
+                "description": "---38F CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/36",
+                "access_vlan": "235",
+                "description": "---38F CCTV---",
+                "mode": "access"
+            },
+            {
+                "interface": "GigabitEthernet2/37",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/38",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/39",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/40",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/41",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/42",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/43",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/44",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/45",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/46",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/47",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet2/48",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/1",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/2",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/3",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/4",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/5",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/6",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/7",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/8",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/9",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/10",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/16",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/22",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/23",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/24",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/25",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/26",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/27",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/28",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/29",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/30",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/31",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/32",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/33",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/34",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/35",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/36",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/37",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/38",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/39",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/40",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/41",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/42",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/43",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/44",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/45",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/46",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/47",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            },
+            {
+                "interface": "GigabitEthernet3/48",
+                "access_vlan": "298",
+                "mode": "access",
+                "voice_vlan": "59"
+            }
+        ],
+        "Trunk": [
+            {
+                "interface": "GigabitEthernet3/11",
+                "mode": "trunk",
+                "native_vlan": "500",
+                "trunk_allowed": "500-503"
+            },
+            {
+                "interface": "GigabitEthernet3/12",
+                "mode": "trunk",
+                "native_vlan": "500",
+                "trunk_allowed": "500-503"
+            },
+            {
+                "interface": "GigabitEthernet3/13",
+                "mode": "trunk",
+                "native_vlan": "500",
+                "trunk_allowed": "500-503"
+            },
+            {
+                "interface": "GigabitEthernet3/14",
+                "mode": "trunk",
+                "native_vlan": "500",
+                "trunk_allowed": "500-503"
+            },
+            {
+                "interface": "GigabitEthernet3/15",
+                "mode": "trunk",
+                "native_vlan": "500",
+                "trunk_allowed": "298,500-503"
+            },
+            {
+                "interface": "GigabitEthernet3/17",
+                "mode": "trunk",
+                "native_vlan": "500",
+                "trunk_allowed": "500-503"
+            },
+            {
+                "interface": "GigabitEthernet3/18",
+                "mode": "trunk",
+                "native_vlan": "500",
+                "trunk_allowed": "500-503"
+            },
+            {
+                "interface": "GigabitEthernet3/19",
+                "mode": "trunk",
+                "native_vlan": "500",
+                "trunk_allowed": "500-503"
+            },
+            {
+                "interface": "GigabitEthernet3/20",
+                "mode": "trunk",
+                "native_vlan": "500",
+                "trunk_allowed": "500-503"
+            },
+            {
+                "interface": "GigabitEthernet3/21",
+                "mode": "trunk",
+                "native_vlan": "500",
+                "trunk_allowed": "500-503"
+            }
+        ],
+        "Layer3": [
+            {
+                "interface": "Vlan298",
+                "description": "38th Floor LAN segment",
+                "ip_address": "146.40.229.5",
+                "subnet": "255.255.255.0"
+            }
+        ],
+        "Unused": [
+            {
+                "interface": "Port-channel21",
+                "description": "PHRCSL38F21 - Uplink Connected to - PHRCRG1"
+            },
+            {
+                "interface": "FastEthernet1",
+                "duplex": "auto",
+                "speed": "auto"
+            },
+            {
+                "interface": "TenGigabitEthernet1/1",
+                "description": "PHRCSL38F21-Te1/1 - Uplink Connected to - PHRCRG1-TenGigabitEthernet1/2/3",
+                "portchannel_id": "21",
+                "portchannel_mode": "desirable",
+                "portchannel_protocol": "pagp"
+            },
+            {
+                "interface": "TenGigabitEthernet1/2",
+                "description": "PHRCSL38F21-Te1/2 - Uplink Connected to - PHRCRG1-TenGigabitEthernet2/2/3",
+                "portchannel_id": "21",
+                "portchannel_mode": "desirable",
+                "portchannel_protocol": "pagp"
+            },
+            {
+                "interface": "TenGigabitEthernet1/3"
+            },
+            {
+                "interface": "TenGigabitEthernet1/4"
+            },
+            {
+                "interface": "Vlan1"
+            }
+        ]
+    },
+    "Static_route": {
+        "default_gateway": "146.40.229.1"
+    }
+}
