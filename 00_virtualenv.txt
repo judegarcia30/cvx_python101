@@ -15,3 +15,5 @@ $ source <"Path\to\new\virtual\environment">\bin\activate
 
 Deactivate virtual environment
 $ deactivate
+
+Added change
